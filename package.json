@@ -1,7 +1,7 @@
 {
   "name": "arnavpratapsingh-portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/arnav7777",
+  "homepage": "https://github.com/arnav7777/arnavpratapsingh-portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
