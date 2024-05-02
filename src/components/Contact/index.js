@@ -160,15 +160,8 @@ const Contact = () => {
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" /> */}
-          <ContactButton type="submit" value="@arnavsinghp27@gmail.com" /> 
+          <ContactInput type="submit" value="arnavsinghp27@gmail.com" /> 
         </ContactForm>
-        <Snackbar
-          open={open}
-          autoHideDuration={6000}
-          onClose={() => setOpen(false)}
-          message="Email sent successfully!"
-          severity="success"
-        />
       </Wrapper>
     </Container>
   );
