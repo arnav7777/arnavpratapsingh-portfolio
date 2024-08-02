@@ -40,7 +40,7 @@ const Projects = ({openModal,setOpenModal}) => {
         <Title>Projects</Title>
         <Desc>
         Here are some of my projects to check from! - 
-          <b> <a href='https://github.com/arnav7777' style={{ textDecoration: '', color: 'inherit' }}>github profile </a></b>
+          <b> <a href='https://github.com/arnav7777' target="_blank" style={{ textDecoration: '', color: 'inherit' }}>github profile </a></b>
         </Desc>
         <CardContainer>
           {toggle === 'all' && projects
