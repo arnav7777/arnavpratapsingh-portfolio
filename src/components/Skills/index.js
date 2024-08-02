@@ -96,13 +96,13 @@ const SkillItem = styled.div`
   font-size: 16px;
   font-weight: 400;
   color: ${({ theme }) => theme.text_primary + 80};
-  border: 1px solid ${({ theme }) => theme.text_primary + 80};
+   ${({ theme }) => theme.text_primary + 80};
   border-radius: 12px;
-  padding: 12px 16px;
+  padding: 8px 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 4px;
   @media (max-width: 768px) {
     font-size: 14px;
     padding: 8px 12px;

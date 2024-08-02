@@ -39,3 +39,9 @@ body{
   ::-webkit-scrollbar-thumb:hover {
     background: #626970;
   }
+  /* App.css */
+
+.custom-cursor {
+  cursor: url("../public/image1.gif"), auto; /* URL to your custom cursor image */
+
+}

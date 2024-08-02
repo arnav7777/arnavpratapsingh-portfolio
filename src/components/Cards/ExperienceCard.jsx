@@ -1,17 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Document = styled.img`
-    display: none;
-    height: 70px;
-    width: fit-content;
-    background-color: #000;
-    border-radius: 10px;
-    &:hover{
-        cursor: pointer;
-        opacity: 0.8;
-    }
-`
 
 const Description = styled.div`
     width: 100%;
@@ -23,20 +12,35 @@ const Description = styled.div`
         font-size: 12px;
     }
 `
-
 const Span = styled.span`
-overflow: hidden;
-display: -webkit-box;
-max-width: 100%;
--webkit-line-clamp: 4;
--webkit-box-orient: vertical;
-text-overflow: ellipsis;
-`
+    overflow: hidden;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    transition: max-height 0.3s ease, -webkit-line-clamp 0.3s ease;
+`;
+
+const Document = styled.img`
+    opacity: 0;
+    visibility: hidden;
+    height: 70px;
+    width: fit-content;
+    background-color: #000;
+    border-radius: 10px;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+`;
 
 const Card = styled.div`
     width: 750px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border: 0.1px solid #306EE8;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
     padding: 12px 16px;
     justify-content: space-between;
     position: relative;
@@ -44,30 +48,29 @@ const Card = styled.div`
     display: flex;
     flex-direction: column;
     gap: 12px;
-    transition: all 0.3s ease-in-out;
-    &:hover{
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    &:hover {
         box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
         transform: translateY(-5px);
     }
-    @media only screen and (max-width: 768px){
+    @media only screen and (max-width: 768px) {
         padding: 10px;
         gap: 8px;
         width: 300px;
     }
 
-    &:hover ${Document}{
-        display: flex;
+    &:hover ${Document} {
+        opacity: 1;
+        visibility: visible;
     }
 
-    &:hover ${Span}{
-        overflow: visible;
+    &:hover ${Span} {
+        max-height: none;
         -webkit-line-clamp: unset;
-
     }
+`;
 
-    border: 0.1px solid #306EE8;
-    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
-`
+
 
 const Top = styled.div`
     width: 100%;
@@ -134,7 +137,7 @@ const ItemWrapper = styled.div`
 `
 
 const Skill = styled.div`
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
     color: ${({ theme }) => theme.text_primary + 99};
     @media only screen and (max-width: 768px){
@@ -157,14 +160,14 @@ const ExperienceCard = ({ experience }) => {
             </Top>
             <Description>
                 {experience?.desc &&
-                    <Span>{experience?.desc}</Span>
+                    <Span><b>Projects:  </b>{experience?.desc}</Span>
 
                 }
                 {experience?.skills &&
                     <>
                         <br />
                         <Skills>
-                            <b>Skills:</b>
+                            <b>Technologies:</b>
                             <ItemWrapper>
                                 {experience?.skills?.map((skill, index) => (
                                     <Skill>• {skill}</Skill>

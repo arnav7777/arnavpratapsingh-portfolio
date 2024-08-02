@@ -14,7 +14,7 @@ const HeroSection = () => {
                 </HeroBg>
                 <HeroInnerContainer >
                     <HeroLeftContainer id="Left">
-                        <Title>Hi, I am <br /> {Bio.name}</Title>
+                        <Title>{Bio.name}</Title>
                         <TextLoop>
                             I am a
                             <Span>
@@ -28,7 +28,7 @@ const HeroSection = () => {
                             </Span>
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
-                        <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
+                        {/* <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton> */}
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">

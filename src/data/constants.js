@@ -6,15 +6,15 @@ export const Bio = {
     "Web Developer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "A computer engineering graduate with a solid foundation in working with Software Development , APIs, Website/Mobile App Development and Cloud. My proficiency extends beyond technical expertise. I am a skilled communicator who values transparent dialogue, embracing a collaborative mindset. I recognize the pivotal role teamwork plays in realizing project success, and I am dedicated to fostering a harmonious team dynamic.",
   github: "https://github.com/arnav7777",
   resume:
-    "https://drive.google.com/file/d/18nrbmiwsJtQFoYBxVqEmF8ok7eJjpOvO/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/arnavpratap-singh-29b912282/",
+    "",
+  linkedin: "https://www.linkedin.com/in/arnav-pratap-singh-29b912282/",
   twitter: "#",
   insta: "#",
   facebook: "#",
-  youtube:"https://www.youtube.com/@TechwithRhyno",
+  youtube: "https://www.youtube.com/@TechwithRhyno",
 };
 
 export const skills = [
@@ -52,6 +52,17 @@ export const skills = [
         image:
           "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAPFBMVEX////G6fxsyvk/v/g4vfhhyPmz4vuK1PoAtfckufgvu/hTxPn6/f+h2/tGwPjS7v255fxMwviT1/qn3vsZjXhWAAAAbElEQVR4AeWOCQqAMAwEq11r06b3//9qAwiI0QfowHINC2N+yLJabE53uycgUGTtF11CmDqLLVdZ57iJhSt9V+4cCQB5a1RGJgr9FrrW866GbmpoGylISlNC3RxnsbY+hLbX0GSJIKE6zOajHN4ZA8/fNs9XAAAAAElFTkSuQmCC",
       },
+      {
+        name: "Material UI",
+        image:
+          "https://img.icons8.com/?size=100&id=gFw7X5Tbl3ss&format=png&color=000000",
+      },
+      {
+        name: "Charts.js",
+        image:
+          "https://www.chartjs.org/img/chartjs-logo.svg",
+      },
+
     ],
   },
   {
@@ -77,22 +88,33 @@ export const skills = [
         image:
           "https://upload.vectorlogo.zone/logos/expressjs/images/a1b5cb1f-dae7-4971-ab5b-68efce751b0f.svg",
       },
+      {
+        name: "JWT",
+        image:
+          "https://jwt.io/img/pic_logo.svg",
+      },
+      {
+        name: "JAVA",
+        image:
+          "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/182px-Java_programming_language_logo.svg.png",
+      },
+      {
+        name: "Socket.io",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Socket-io.svg/1024px-Socket-io.svg.png"
+      },
     ],
   },
 
   {
-    title: "Others",
+    title: "Tools",
     skills: [
       {
         name: "Git",
         image:
           "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
       },
-      {
-        name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      },
+    
       {
         name: "VS Code",
         image:
@@ -113,15 +135,47 @@ export const skills = [
         image:
           "https://avatars.githubusercontent.com/u/12504344?s=48&v=4",
       },
+     
+      {
+        name: "Restful API",
+        image:
+          "https://media.licdn.com/dms/image/D4D12AQEeNNHq05k7MA/article-cover_image-shrink_720_1280/0/1687786979245?e=1727913600&v=beta&t=1D5UD87kMhrhTMVRtCXnNiw_SVAWenPOie1wZVWD7Zg",
+      }, 
+
     ],
   },
   {
-    title: "Programming",
+    title: "Platforms",
     skills: [
       {
-        name: "JAVA",
+        name: "GitHub",
         image:
-          "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/182px-Java_programming_language_logo.svg.png",
+          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      },
+      {
+        name: "Clever Cloud",
+        image:
+          "https://console.clever-cloud.com/img/svg-logo.svg",
+      },
+      {
+        name: "JIRA",
+        image:
+          "https://logowik.com/content/uploads/images/jira2966.logowik.com.webp"
+      },
+      {
+        name: "Render",
+        image:
+          "https://media.licdn.com/dms/image/D4E0BAQGGDoFoqHtOvA/company-logo_200_200/0/1702595267620/renderco_logo?e=1730332800&v=beta&t=4EKD6I-229mRwVUb9yTdUc5C-a4vWroq2krby0hl--w",
+      },
+      {
+        name: "Firebase",
+        image:
+          "https://www.gstatic.com/mobilesdk/240501_mobilesdk/firebase_28dp.png",
+      },
+      {
+        name: "GCP",
+        image:
+          "https://pendulum-it.com/wp-content/uploads/2020/05/Google-Cloud-Platform-GCP-logo.png",
       },
     ],
   },
@@ -131,11 +185,11 @@ export const experiences = [
 
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/D4D0BAQHoozVLv9nXEA/company-logo_200_200/0/1705181297220/advait_techserve_india_pvt__ltd__logo?e=1722470400&v=beta&t=g70gNWCyduCFSglGvETgqWQr8he779cBNz3TmOuK98Q",
+    img: "https://media.licdn.com/dms/image/D4D0BAQHoozVLv9nXEA/company-logo_200_200/0/1705181297220/advait_techserve_india_pvt__ltd__logo?e=1730332800&v=beta&t=ruXDYUADo-T0hnA3r8zwLbqhV1v15kUin3lRKDBr9x8",
     role: "Web developer",
-    company: "Advait techserve",
+    company: "Advait Techserve",
     date: "February 2024 - Present",
-    desc: "Developing management and finance softwares for the company. Created HRMS tool as a product for 500+ employees of the company. Developed Invoicing system and finance managemnt tool for the company which improved efficiency upto 50%+.",
+    desc: "Database Management System with Dashboards , FLM Connect Web App",
     skills: [
       "React Js",
       "Express Js",
@@ -143,12 +197,28 @@ export const experiences = [
       "Node Js",
       "Vite",
       "Restful API",
+      "JOI.dev",
+      "Socket.IO",
+      "Bycrypt.js",
+      "papaparse",
+      "multer",
+      "CORS",
+      "Charts.js",
+      "Axios",
+      "Tailwind",
+      "Flowbite",
+      "Mui datatables",
+      "Email.js",
+      "JWT",
+      "Lottie Files",
+      "Toastify",
+      "JIRA"
     ],
     doc: "",
   },
-   {
+  {
     id: 1,
-    img: "https://i0.wp.com/inditech.co.in/wp-content/uploads/2021/12/BABE3155-C18C-4BD2-A6EB-AC74886C3DD6-1.png?w=307&ssl=1",
+    img: "https://media.licdn.com/dms/image/D4D0BAQEDFqXHKKgdNw/company-logo_200_200/0/1694257912595/inditech_technology_services_private_limited_logo?e=1730332800&v=beta&t=zFS3HUqOHe7tb4nZRwWh9GE5urOeGPRVNVmCaTUsd-E",
     role: "Product development Engineer",
     company: "Inditech Health Solutions",
     date: "August 2022 - February 2024",
@@ -169,31 +239,12 @@ export const experiences = [
     doc: "",
   },
   {
-    id: 2,
-    img: "https://arnavinternship.000webhostapp.com/images/article/photo.jpg",
-    role: "Full stack Developer - Freelance",
-    company: "YouSlay",
-    date: "May 2020",
-    desc: "Integrated Razorpay payment gateway for payments , created an admin panel to manage admins, orders,inventory and customers . Used Bootstrap for responsive designs and hamburger menu. Deployed it on Hostinger.",
-    skills: [
-      "PHP",
-      "MySQL",
-      "Razorpay API",
-      "Bootstrap",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Hostinger",
-    ],
-    doc: "",
-  },
-  {
     id: 3,
     img: "data:image/png;base64,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",
     role: "Student Partner",
     company: "Internshala",
     date: "May 2020 - Jul 2020",
-    desc: "",
+    desc: "Internshala Student partner for my college.",
     skills: [
       "Management",
       "Marketing",
@@ -206,7 +257,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://kjsit.somaiya.edu.in/assets/kjsieit/images/Logo/kjsieit-logo.svg",
+    img: "https://kjsit.somaiya.edu.in/assets/kjsieit/images/icons/favicon.png",
     school: "KJ Somaiya Institute of Technology, Mumbai",
     date: "August 2019 - July 2023",
     grade: "9.12 CGPA",
@@ -225,48 +276,7 @@ export const education = [
 ];
 
 export const projects = [
-  {
-    id: 11,
-    title: "E-Commerce Website",
-    date: "May 2020",
-    description:
-      "Integrated Razorpay payment gateway for payments , created an admin panel to manage admins, orders,inventory and customers.Used Bootstrap for responsive designs and hamburger menu.Deployed it on Hostinger.",
-    image:
-      "https://arnavinternship.000webhostapp.com/images/article/photo.jpg",
-    tags: [
-      "Bootstrap",
-      "Javascript",
-      "Razorpay API",
-      "HTML",
-      "PHP",
-      "MySQL",
-    ],
-    category: "web app",
-    github: "https://github.com/arnav7777/html-css-php-python-ai-with-razorpay-integration-ecommerce",
-    webapp: "https://arnavinternship.000webhostapp.com/index.php",
-  },
-  {
-    id: 9,
-    title: "Employee Management System",
-    date: "February 2024",
-    description:
-      "Employee Management System is a web application designed to streamline task management for Hr's and enhance productivity in the workplace. It provides a user-friendly interface for Hr to keep track of their employees' details and leave requests and them to log their tasks efficiently.",
-    image:
-      "https://desktrack.timentask.com/blog/wp-content/uploads/2022/07/b-1-740x430-2.jpeg",
-    tags: [
-      "PHPEXCEL",
-      "Jquery Datatables",
-      "AJAX",
-      "PHP",
-      "MySQL",
-      "Bootstrap",
-      "SendGrid API",
-    ],
-    category: "web app",
-    github: "https://github.com/arnav7777/Employee-Management-System",
-    webapp: "https://github.com/arnav7777/Employee-Management-System",
-  },
-  
+
 ];
 
 export const TimeLineData = [
