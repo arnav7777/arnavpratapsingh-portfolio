@@ -45,3 +45,25 @@ body{
   cursor: url("../public/image1.gif"), auto; /* URL to your custom cursor image */
 
 }
+/* src/styles/GitHubProfileCard.css */
+.github-profile-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+}
+
+.github-profile-card img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.github-profile-card h3 {
+  margin: 8px 0;
+}
+
+.github-profile-card a {
+  color: #0366d6;
+  text-decoration: none;
+}

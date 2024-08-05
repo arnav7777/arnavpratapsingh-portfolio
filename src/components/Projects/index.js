@@ -4,6 +4,7 @@ import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, Togg
 import ProjectCard from '../Cards/ProjectCards'
 import { projects } from '../../data/constants'
 import styled from 'styled-components'
+import GitHubProfileCard from './GitHubProfilecard'
 const Button = styled.a`
     width: 100%;
     text-align: center;
@@ -39,8 +40,8 @@ const Projects = ({openModal,setOpenModal}) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-        Here are some of my projects to check from! - 
-          <b> <a href='https://github.com/arnav7777' target="_blank" style={{ textDecoration: '', color: 'inherit' }}>github profile </a></b>
+        For projects checkout my github profile...
+          <GitHubProfileCard username="arnav7777" />
         </Desc>
         <CardContainer>
           {toggle === 'all' && projects
