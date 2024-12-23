@@ -1,12 +1,10 @@
 export const Bio = {
   name: "Arnav Pratap Singh",
   roles: [
-    "Software Engineer",
-    "Programmer",
-    "Web Developer",
+    "Software Engineer"
   ],
   description:
-    "A computer engineering graduate with a solid foundation in working with Software Development , APIs, Website/Mobile App Development and Cloud. My proficiency extends beyond technical expertise. I am a skilled communicator who values transparent dialogue, embracing a collaborative mindset. I recognize the pivotal role teamwork plays in realizing project success, and I am dedicated to fostering a harmonious team dynamic.",
+    "A Computer Engineering graduate with expertise in software development, APIs, app development, cloud technologies, and DevOps",
   github: "https://github.com/arnav7777",
   resume:
     "",
@@ -23,42 +21,42 @@ export const skills = [
     skills: [
 
       {
-        name: "React Js",
+        name: "",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
 
       {
-        name: "HTML",
+        name: "",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
       },
       {
-        name: "CSS",
+        name: "",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       },
       {
-        name: "JavaScript",
+        name: "",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
       {
-        name: "Bootstrap",
+        name: "",
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
       {
-        name: "Tailwind",
+        name: "",
         image:
           "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAPFBMVEX////G6fxsyvk/v/g4vfhhyPmz4vuK1PoAtfckufgvu/hTxPn6/f+h2/tGwPjS7v255fxMwviT1/qn3vsZjXhWAAAAbElEQVR4AeWOCQqAMAwEq11r06b3//9qAwiI0QfowHINC2N+yLJabE53uycgUGTtF11CmDqLLVdZ57iJhSt9V+4cCQB5a1RGJgr9FrrW866GbmpoGylISlNC3RxnsbY+hLbX0GSJIKE6zOajHN4ZA8/fNs9XAAAAAElFTkSuQmCC",
       },
       {
-        name: "Material UI",
+        name: "",
         image:
           "https://img.icons8.com/?size=100&id=gFw7X5Tbl3ss&format=png&color=000000",
       },
       {
-        name: "Charts.js",
+        name: "",
         image:
           "https://www.chartjs.org/img/chartjs-logo.svg",
       },
