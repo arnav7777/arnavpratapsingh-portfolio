@@ -183,7 +183,7 @@ export const experiences = [
 
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/D4D0BAQHoozVLv9nXEA/company-logo_200_200/0/1705181297220/advait_techserve_india_pvt__ltd__logo?e=1730332800&v=beta&t=ruXDYUADo-T0hnA3r8zwLbqhV1v15kUin3lRKDBr9x8",
+    img: "https://www.advaittechserve.in/_nuxt/assets/images/logo.png",
     role: "Web developer",
     company: "Advait Techserve",
     date: "February 2024 - Present",
